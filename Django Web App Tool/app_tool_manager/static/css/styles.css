@@ -1,0 +1,152 @@
+body {
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.card-header {
+    background-color: #fafbfc;
+    border-bottom: 1px solid #e1e4e8;
+}
+
+.card-header h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+.btn {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #0069d9;
+}
+
+.btn:active {
+    background-color: #0056b3;
+}
+
+#remove-image {
+    background-color: #3e3e3e;
+    color:white;
+    border: none;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+
+}
+
+#remove-image:hover {
+    background-color: #979797;
+}
+
+
+.input-group {
+    display: flex;
+    justify-content: center;
+}
+
+.form-control {
+    margin-right: 16px;
+}
+
+
+.form-control:focus {
+    border-color: #0036fa;
+    box-shadow: 0 0 0 0.2rem rgba(13, 118, 198, 0.25);
+} 
+
+.errorlist li{
+    color: red;
+}
+
+.status-modal-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1050;
+}
+
+.status-modal-container .modal-dialog {
+    margin: 0;
+}
+
+.jumbotron {
+    background-image: linear-gradient(135deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+    border-radius: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.slide-down {
+    display: none;
+}
+
+.title-container {
+    position: relative;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.title-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.results-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.results-table thead {
+    background-color: #2989d8;
+    color: white;
+}
+
+.results-table thead th {
+    text-align: center;
+}
+
+.results-table tbody tr {
+    background-color: white;
+}
+
+.results-table tbody tr td {
+    padding: 0.75rem;
+    vertical-align: middle;
+}
+.results-table tbody tr {
+    background-color: white;
+}
+
+.results-table tbody tr:hover {
+    background-color: #f6f6f6;
+}
+
+.loader {
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
